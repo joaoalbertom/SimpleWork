@@ -1,0 +1,196 @@
+/*
+* Simple Work to bootstrap stylesheet
+* @author : joaodesign.com.br
+* require normalize.css
+*/
+
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0px 0px 0px 0px}
+
+html { font-size: 62.5%; }
+
+body { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(34,34,34);
+    margin-left: 10px;
+    }
+
+h1 {font-size: 2.6em}
+h2 {font-size: 2.4em}
+h3 {font-size: 2.2em}
+h4 {font-size: 2.0em}
+h5 {font-size: 1.8em}
+h6 {font-size: 1.6em}
+
+a {
+    text-align: left;
+    text-decoration: none;
+    }
+
+ul {
+    list-style: none;
+    }
+
+hgroup {
+    }
+
+hr { 
+    border: solid #dddddd; 
+    border-width: 1px 0 0; 
+    clear: both; 
+    margin: 3px 0 3px; 
+    height: 0; 
+    }
+    
+::selection {
+    background: rgb(0,133,255);
+    color: rgb(255,255,255);
+    }
+
+/* ----------------------- position classes ----------------------- */
+
+.left {
+    float: left;
+    }
+
+.right {
+    float : right;
+    }
+        
+.center-left {
+    position: absolute;
+    left: 50%;
+    }
+/* ----------------------- menus ----------------------- */
+
+.top-bar-nav {
+  height: 100%;
+	}
+
+.inline-menu {
+    display: inline;
+    height: 100%
+    }
+    
+nav.top-bar-nav ul {
+    padding: 0px 0px;
+    display: inline-block;
+    height: 80px;
+    }
+    
+li.item-inline-menu {
+    float: left;
+    display:  inline;
+    font-size: 2em;
+    padding: 10px 0px;
+    height: 100%;
+    text-align: center;
+    line-height: 100%;
+    }
+li.item-inline-menu a{
+    padding: 0px 20px;
+    color: rgb(255,255,255);
+    }
+li.item-inline-menu a:hover {
+    padding-bottom: 0px;
+    border-bottom: 3px solid rgba(255,255,255,0.9);
+    }
+    
+/* ----------------------- Blocos e boxes ----------------------- */
+
+.top-bar {
+    height: 100px;
+    padding: 10px 0px;
+    background: rgb(0,133,255);
+    }
+
+.row {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 20px 0px;
+    padding: 15px 0px;
+    }
+.row:first-child {
+    margin-top: 0px;
+    padding: 0px 0px
+    }
+    
+.full-width {
+    position: absolute;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    }
+    
+/* ----------------------- Buttons  ----------------------- */
+
+.button {
+    padding: 5px 5px;
+    -webkit-border-radius : 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset -2px 2px 1px rgba(0,0,0,0.1), inset 2px -2px 1px rgba(255,255,255,0.3);
+    box-shadow: inset -2px 2px 1px rgba(0,0,0,0.1), inset 2px -2px 1px rgba(255,255,255,0.3);
+    color: rgb(255,255,255);
+    -webkit-text-shadow: inset -2px 2px 1px rgba(0,0,0,0.1), inset 2px -2px 1px rgba(255,255,255,0.3);
+    text-shadow: inset -2px 2px 1px rgba(0,0,0,0.1), inset 2px -2px 1px rgba(255,255,255,0.3);
+    }
+.normal 		{background-color: rgb(34,34,200);}
+.confirm 		{background-color: rgb(34,200,34);}
+.cancel 		{background-color: rgb(200,34,34);}
+.normal:hover	{background-color: rgb(34,34,150);}
+.confirm:hover 	{background-color: rgb(34,150,34);}
+.cancel:hover 	{background-color: rgb(150,34,34);}
+
+/* ----------------------- text  ----------------------- */
+
+.title, .subtitle {
+    color: rgb(255,255,255);
+    }
+    
+.title {
+    font-size: 3em;
+    }
+    
+.subtitle {
+    font-size:2.5em;
+    }
+    
+.text-shadow {
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3), 0px -1px 0px rgba(30,30,200,0.3);
+    }
+
+p {
+    font-size: 1.3em;
+    margin-left: 1em;
+    }
+p:first-letter {
+    padding-left: 5px;
+    }
+
+/* ----------------------- colors  ----------------------- */
+
+.black {
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+    }
+
+.white {
+    background: rgb(255,255,255);
+    color: rgb(34,34,34);
+    }
+    
+.grey {
+    background: rgb(200,200,200);
+    color: rgb(0,50,200)
+    }
+    
+/* ----------------------- radius  ----------------------- */
+
+.radius {
+    border-radius : 8px;
+    }
+
+.top-radius {
+    border-radius: 8px 8px 0px 0px;
+    }
